@@ -1,0 +1,17 @@
+name: stock_date_value
+description: 台灣證券交易所個股每日成交資訊查詢
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.10.1
+  flutter: ">=3.38.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
